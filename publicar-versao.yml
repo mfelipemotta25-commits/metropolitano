@@ -1,0 +1,72 @@
+# Recebe o arquivo do jogo enviado pelo painel de administrador, monta as partes
+# e publica como um Release do GitHub. Não precisa ser executado à mão.
+name: Publicar versão
+
+on:
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: Tag da versão, por exemplo v0.2.0
+        required: true
+        type: string
+      titulo:
+        description: Título do lançamento
+        required: true
+        type: string
+      arquivo:
+        description: Nome do arquivo final
+        required: true
+        type: string
+      ramo:
+        description: Ramo temporário com as partes do arquivo
+        required: true
+        type: string
+
+permissions:
+  contents: write
+
+concurrency:
+  group: publicar-versao
+  cancel-in-progress: false
+
+jobs:
+  publicar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      TAG: ${{ inputs.tag }}
+      TITULO: ${{ inputs.titulo }}
+      ARQUIVO: ${{ inputs.arquivo }}
+      RAMO: ${{ inputs.ramo }}
+      GH_TOKEN: ${{ github.token }}
+      GH_REPO: ${{ github.repository }}
+    steps:
+      - name: Baixar as partes
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ inputs.ramo }}
+          path: pacote
+
+      - name: Montar o arquivo
+        run: |
+          set -euo pipefail
+          if [[ ! "$ARQUIVO" =~ ^[A-Za-z0-9][A-Za-z0-9._-]*$ ]]; then
+            echo "Nome de arquivo inválido: $ARQUIVO"; exit 1
+          fi
+          (cd pacote/_upload && sha256sum --check --strict partes.sha256)
+          cat pacote/_upload/part-* > "$ARQUIVO"
+          ls -l "$ARQUIVO"
+
+      - name: Publicar o lançamento
+        run: |
+          set -euo pipefail
+          if gh release view "$TAG" > /dev/null 2>&1; then
+            gh release upload "$TAG" "$ARQUIVO" --clobber
+            gh release edit "$TAG" --title "$TITULO" --notes-file pacote/_upload/notas.md
+          else
+            gh release create "$TAG" "$ARQUIVO" --title "$TITULO" --notes-file pacote/_upload/notas.md
+          fi
+
+      - name: Apagar o ramo temporário
+        if: always()
+        run: gh api --method DELETE "repos/$GH_REPO/git/refs/heads/$RAMO" || true
