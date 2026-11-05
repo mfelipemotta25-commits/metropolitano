@@ -155,13 +155,83 @@
         "id": "040dfphe",
         "titulo": "Estabilidade e otimização",
         "texto": "Melhorias no sistema de salvamento, proteção contra arquivos corrompidos, correção de vazamento de memória e adaptação da interface a diferentes resoluções."
+      },
+      {
+        "id": "sywmg3h9",
+        "titulo": "Inteligência de trânsito e motoristas",
+        "texto": "Evolução do comportamento dos veículos, com rotas mais inteligentes, decisões de navegação, identificação de congestionamentos, rotas alternativas e melhorias na circulação urbana."
+      },
+      {
+        "id": "t98le3i7",
+        "titulo": "Simulação avançada de pedestres",
+        "texto": "Cidadãos passam a circular de maneira mais natural pelas calçadas, faixas de pedestres, parques e espaços públicos, realizando deslocamentos entre diferentes atividades e destinos da cidade."
+      },
+      {
+        "id": "po5u0bz7",
+        "titulo": "Mobilidade urbana e deslocamentos",
+        "texto": "Integração mais profunda entre veículos, pedestres e transporte público, com melhorias nas conexões entre residências, trabalhos, escolas, comércios, serviços e estações."
+      },
+      {
+        "id": "9idckty4",
+        "titulo": "Logística e veículos de carga",
+        "texto": "Evolução da circulação de caminhões e veículos comerciais, com rotas específicas, restrições de acesso e melhor integração com áreas industriais, centros comerciais e pontos de distribuição."
+      },
+      {
+        "id": "0a221tla",
+        "titulo": "Entregas e serviços urbanos",
+        "texto": "Aprimoramento dos sistemas de motoboys e entregadores, com deslocamentos mais inteligentes, integração com estabelecimentos e participação mais consistente na dinâmica econômica da cidade."
+      },
+      {
+        "id": "64k9c6xl",
+        "titulo": "Turismo e circulação intermunicipal",
+        "texto": "Expansão dos deslocamentos entre a cidade e o ambiente externo, incluindo turistas, conexões com hotéis e atrações, ônibus e trens intermunicipais e fluxos de entrada e saída."
+      },
+      {
+        "id": "j2dh5n0h",
+        "titulo": "Estacionamentos e integração modal",
+        "texto": "Introdução de uma dinâmica mais completa de estacionamento e transferência entre diferentes meios de transporte, tornando os deslocamentos urbanos mais realistas."
       }
     ],
     "embreve": [
       {
-        "id": "ucwgmmd1",
-        "titulo": "",
-        "texto": ""
+        "id": "i286qy8q",
+        "titulo": "Economia e cadeias produtivas",
+        "texto": "Expansão da economia urbana com extração de recursos naturais, agricultura, pecuária e indústrias. A produção passará a alimentar cadeias de distribuição, abastecimento e consumo."
+      },
+      {
+        "id": "q8kdwkqm",
+        "titulo": "Comércio, consumo e distribuição",
+        "texto": "Evolução dos estabelecimentos comerciais, estoques e sistemas de abastecimento, conectando produção, transporte de mercadorias, entregas e consumo dos cidadãos."
+      },
+      {
+        "id": "qkly9ebt",
+        "titulo": "Educação e mercado de trabalho",
+        "texto": "Introdução de sistemas educacionais, escolas, qualificação profissional e formação de trabalhadores, influenciando as oportunidades de emprego e o desenvolvimento econômico da cidade."
+      },
+      {
+        "id": "o1sk0t8s",
+        "titulo": "Infraestrutura e serviços urbanos",
+        "texto": "Expansão dos sistemas de infraestrutura e serviços essenciais, ampliando a capacidade de gerenciamento da cidade e preparando o terreno para novas necessidades da população."
+      },
+      {
+        "id": "agze2ikn",
+        "titulo": "Construção e evolução urbana",
+        "texto": "Aprofundamento dos sistemas construtivos, com novos materiais, evolução das edificações, maior variedade arquitetônica e expansão das possibilidades de desenvolvimento dos bairros."
+      },
+      {
+        "id": "zjdwa256",
+        "titulo": "Importação, exportação e logística externa",
+        "texto": "Integração econômica com outras cidades e regiões, permitindo a entrada e saída de mercadorias, recursos e produtos por meio de conexões logísticas externas."
+      },
+      {
+        "id": "wwzqye8l",
+        "titulo": "Interface e ferramentas de gerenciamento",
+        "texto": "Novas melhorias na interface, ferramentas de construção, organização dos painéis e recursos de gerenciamento, proporcionando maior controle sobre os diferentes sistemas da cidade."
+      },
+      {
+        "id": "w85sa4kz",
+        "titulo": "Expansão e integração da simulação",
+        "texto": "Integração progressiva dos sistemas de economia, mobilidade, infraestrutura, população e serviços, criando uma simulação urbana mais profunda, conectada e dinâmica."
       }
     ]
   },
