@@ -97,17 +97,19 @@
   "roteiro": {
     "titulo": "Roteiro de desenvolvimento",
     "intro": "O que já chegou ao jogo, o que está sendo feito agora e o que vem pela frente.",
-    "adicionado": [],
+    "adicionado": [
+      {
+        "id": "ruas-curvas",
+        "titulo": "Ruas em qualquer ângulo e com curvas",
+        "texto": "Nova rede de ruas, que serve de base para os demais sistemas.",
+        "versao": "0.1.0"
+      }
+    ],
     "desenvolvimento": [
       {
         "id": "godot",
         "titulo": "Migração para o Godot 4",
         "texto": "Nova base técnica do jogo."
-      },
-      {
-        "id": "ruas-curvas",
-        "titulo": "Ruas em qualquer ângulo e com curvas",
-        "texto": "Nova rede de ruas, que serve de base para os demais sistemas."
       }
     ],
     "embreve": [
@@ -147,7 +149,45 @@
     "titulo": "Atualizações",
     "intro": "Novidades, melhorias e correções de cada versão."
   },
-  "versoes": [],
+  "versoes": [
+    {
+      "id": "s8ap7th6",
+      "numero": "0.1.0",
+      "data": "2026-11-03",
+      "titulo": "Alpha 0.1.0",
+      "resumo": "Nossa primeira versão pública de Metropolitano! Baixe, jogue e nos dê feedback para que possamos melhorar sua experiência na próxima atualização!",
+      "adicionado": [
+        "Construa sua cidade do zero!",
+        "## Transporte",
+        "Ruas e Avenidas",
+        "Ônibus (Galpão, ponto de ônibus e linhas - crie e gerencie linhas de ônibus na sua cidade do seu jeito!)",
+        "Metro (Estações e conexões diretas)",
+        "Semáforos (Para veículos, para pedestres ou duplo)",
+        "## Zonas",
+        "As zonas de construção contam com 2 principais modelos tradicional (com construções mais antigas e tradicionais brasileiras) e contemporâneo (com construções mais modernas).",
+        "Zonas Residênciais (da baixa densidade até a alta)",
+        "Zonas Comerciais (da baixa densidade até a alta)",
+        "Zonas Industriais (da baixa densidade até a alta)",
+        "Zonas de Escritórios (da baixa densidade até a alta)",
+        "Zonas de Pecuária (com variados tipos de animais - você pode selecionar e aumentar a àrea da fazenda adicionando mais campos e consequentemente gerando mais emprego)",
+        "Zonas de Agricultura (com campos e pomares - você pode selecionar e aumentar a àrea da fazenda adicionando mais campos e consequentemente gerando mais emprego)",
+        "## Parques, Arborização e Caminhos",
+        "Parques prontos em 3 tamanhos diferentes (pequeno, médio e grande)",
+        "Parques modulares (Agora você pode selecionar uma área do tamanho que quiser para construir seu parque do zero (Adicionando os caminhos, árvores e decorações que quiser e onde quiser) ou importar modelo (que gera os caminhos, àrvores e decorações automaticamente) [em qualquer uma das 2 opções você pode editar ou adicionar mesmo depois de \"pronto\"]",
+        "Arvores brasileiras, como os famosos Ipê-Amarelo, Flamboyant e Jacarandá (entre outras opções)",
+        "Arborização complexa (por unidade, linhas com configuração de curva, reta e espaçamento, ou pincel)",
+        "Caminhos agora podem ser colocados além dos parques, em qualquer área assim como as ruas e avenidas e os pedestres podem utilizar eles (e possuem 3 tipos: terra, concreto e tijolos e cada um possui 3 versões diferentes: normal, com àrvores ou com iluminação)"
+      ],
+      "modificado": [],
+      "corrigido": [],
+      "download": {
+        "origem": "release",
+        "url": "https://github.com/mfelipemotta25-commits/metropolitano/releases/download/v0.1.0/Metropolitano-Setup.exe",
+        "nomeArquivo": "Metropolitano-Setup.exe",
+        "tamanho": 30587992
+      }
+    }
+  ],
   "downloads": {
     "titulo": "Downloads",
     "intro": "Baixe a versão mais recente de Metropolitano para Windows.",
