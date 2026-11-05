@@ -103,59 +103,69 @@
         "titulo": "Ruas em qualquer ângulo e com curvas",
         "texto": "Nova rede de ruas, que serve de base para os demais sistemas.",
         "versao": "0.1.0"
-      }
-    ],
-    "desenvolvimento": [
+      },
       {
         "id": "8i6gxkv2",
         "titulo": "Nova interface e menu principal",
-        "texto": "O Metropolitano ganhou uma nova identidade visual, com tela de abertura, menu principal, telas de carregamento e uma interface completamente reformulada."
+        "texto": "O Metropolitano ganhou uma nova identidade visual, com tela de abertura, menu principal, telas de carregamento e uma interface completamente reformulada.",
+        "versao": "0.1.1"
       },
       {
         "id": "ibpv8gdb",
         "titulo": "Controle de tempo da simulação",
-        "texto": "Agora é possível pausar a cidade e controlar a velocidade da simulação entre os modos normal, 2x e 3x, permitindo gerenciar e construir com mais liberdade."
+        "texto": "Agora é possível pausar a cidade e controlar a velocidade da simulação entre os modos normal, 2x e 3x, permitindo gerenciar e construir com mais liberdade.",
+        "versao": "0.1.1"
       },
       {
         "id": "tpymzz8e",
         "titulo": "HUD e ferramentas reorganizadas",
-        "texto": "A interface agora apresenta informações essenciais da cidade, como população, finanças, demanda, data e horário, além de uma nova organização das categorias e ferramentas de construção."
+        "texto": "A interface agora apresenta informações essenciais da cidade, como população, finanças, demanda, data e horário, além de uma nova organização das categorias e ferramentas de construção.",
+        "versao": "0.1.1"
       },
       {
         "id": "48ddbncg",
         "titulo": "Catálogo com miniaturas em 3D",
-        "texto": "Vias, edifícios, árvores, objetos e ferramentas agora contam com miniaturas tridimensionais que representam os próprios modelos utilizados no jogo."
+        "texto": "Vias, edifícios, árvores, objetos e ferramentas agora contam com miniaturas tridimensionais que representam os próprios modelos utilizados no jogo.",
+        "versao": "0.1.1"
       },
       {
         "id": "6xx00678",
         "titulo": "Inspeção de elementos da cidade",
-        "texto": "Clique diretamente em construções, parques, vias, cruzamentos, estações e outros elementos do mapa para visualizar seus detalhes em painéis próprios."
+        "texto": "Clique diretamente em construções, parques, vias, cruzamentos, estações e outros elementos do mapa para visualizar seus detalhes em painéis próprios.",
+        "versao": "0.1.1"
       },
       {
         "id": "zmn7g2bi",
         "titulo": "Novo menu de pausa",
-        "texto": "Acesse opções para continuar, salvar, carregar cidades, configurar o jogo, retornar ao menu principal ou sair, com gerenciamento mais organizado das ações."
+        "texto": "Acesse opções para continuar, salvar, carregar cidades, configurar o jogo, retornar ao menu principal ou sair, com gerenciamento mais organizado das ações.",
+        "versao": "0.1.1"
       },
       {
         "id": "xi2fu7l6",
         "titulo": "Gerenciamento de múltiplas cidades",
-        "texto": "Cada cidade agora possui seu próprio nome, arquivo de salvamento e salvamento automático, permitindo criar, carregar e administrar diferentes projetos urbanos."
+        "texto": "Cada cidade agora possui seu próprio nome, arquivo de salvamento e salvamento automático, permitindo criar, carregar e administrar diferentes projetos urbanos.",
+        "versao": "0.1.1"
       },
       {
         "id": "jzc6bir6",
         "titulo": "Configurações personalizáveis",
-        "texto": "Novas opções de vídeo, controles e interface permitem ajustar a experiência, incluindo resolução, sombras, desempenho, atalhos de teclado e aparência dos painéis."
+        "texto": "Novas opções de vídeo, controles e interface permitem ajustar a experiência, incluindo resolução, sombras, desempenho, atalhos de teclado e aparência dos painéis.",
+        "versao": "0.1.1"
       },
       {
         "id": "9n2poehg",
         "titulo": "Central de notificações e economia",
-        "texto": "Novos painéis permitem acompanhar avisos da cidade e consultar informações econômicas, incluindo impostos, tarifas, entregas, manutenção e obras."
+        "texto": "Novos painéis permitem acompanhar avisos da cidade e consultar informações econômicas, incluindo impostos, tarifas, entregas, manutenção e obras.",
+        "versao": "0.1.1"
       },
       {
         "id": "040dfphe",
         "titulo": "Estabilidade e otimização",
-        "texto": "Melhorias no sistema de salvamento, proteção contra arquivos corrompidos, correção de vazamento de memória e adaptação da interface a diferentes resoluções."
-      },
+        "texto": "Melhorias no sistema de salvamento, proteção contra arquivos corrompidos, correção de vazamento de memória e adaptação da interface a diferentes resoluções.",
+        "versao": "0.1.1"
+      }
+    ],
+    "desenvolvimento": [
       {
         "id": "sywmg3h9",
         "titulo": "Inteligência de trânsito e motoristas",
@@ -240,6 +250,70 @@
     "intro": "Novidades, melhorias e correções de cada versão."
   },
   "versoes": [
+    {
+      "id": "nn7xtgom",
+      "numero": "0.1.1",
+      "data": "2026-11-05",
+      "titulo": "Alpha 0.1.1 - A Nova Interface",
+      "resumo": "Esta é a maior mudança visual do Metropolitano até agora. O jogo ganhou abertura, menu principal, uma HUD totalmente nova e controle do tempo da simulação.",
+      "adicionado": [
+        "## Novidades",
+        "*Abertura e menu principal**",
+        "O jogo agora abre em tela cheia, com uma abertura própria",
+        "Novo menu principal: Iniciar novo jogo, Carregar jogo, Opções e Sair",
+        "Telas de carregamento mostram o progresso real e a etapa em andamento",
+        "*Controle do tempo**",
+        "Pause a cidade quando quiser, inclusive para construir com calma",
+        "Velocidades normal, 2x e 3x",
+        "Atalhos: Espaço pausa, e 1, 2 e 3 mudam a velocidade",
+        "*Nova HUD**",
+        "A barra superior reúne nome da cidade, nível, população, dinheiro, saldo por dia, demanda por zona, dia e hora",
+        "A barra inferior foi reorganizada em Vias, Zoneamento, Edificações, Paisagismo, Parques, Transporte, Economia, Estatísticas e Demolir",
+        "A categoria Serviços já aparece na barra, com os sistemas planejados para o futuro, ainda indisponíveis",
+        "Nova central de notificações, com avisos por importância",
+        "Novo painel de Economia, com impostos, tarifas, entregas, manutenção e obras",
+        "*Ícones em 3D**",
+        "Categorias, ferramentas, vias, zonas, árvores e objetos agora têm miniaturas 3D",
+        "Os itens do catálogo usam o próprio modelo que aparece no jogo",
+        "*Clique para ver detalhes**",
+        "Sem ferramenta na mão, clique em um elemento do mapa para abrir o painel dele",
+        "Funciona com edifícios, parques, fazendas, vias, cruzamentos, pontos de ônibus, estações, garagens e árvores",
+        "*Menu de pausa**",
+        "Esc cancela primeiro o que estiver em andamento e, depois, abre o menu",
+        "Continuar, Salvar, Salvar como, Carregar, Opções, Voltar ao menu e Sair",
+        "Fechar o menu mantém a cidade como estava: se ela já estava pausada, continua pausada",
+        "*Várias cidades salvas**",
+        "Cada cidade agora tem nome e salvamento próprios",
+        "A lista de carregamento mostra população, dinheiro, dia e data",
+        "Salvar como cria uma nova cidade, sem mexer na anterior",
+        "O salvamento automático é separado por cidade",
+        "O jogo avisa antes de sair quando há alterações não salvas",
+        "*Opções**",
+        "Vídeo: modo de exibição, tamanho da janela, sincronização vertical, limite de quadros, suavização, sombras e escala 3D",
+        "Controles: agora você pode trocar as teclas",
+        "Interface: escala, opacidade dos painéis, redução de animações e ajuda de atalhos"
+      ],
+      "modificado": [],
+      "corrigido": [
+        "## Melhorias e correções",
+        "Salvamento mais seguro: uma queda durante a gravação não apaga a cidade salva anterior",
+        "Arquivos de save corrompidos ou incompletos agora são recusados com um aviso, sem afetar a cidade aberta",
+        "Corrigido um vazamento de memória que crescia a cada cidade carregada",
+        "A interface agora se adapta a diferentes resoluções e proporções de tela",
+        "## Seus saves antigos",
+        "Na primeira vez que você abrir esta versão, suas cidades salvas serão copiadas e aparecerão como \"Cidade anterior\". Os arquivos originais não são apagados.",
+        "## Observações",
+        "Na primeira abertura, o jogo prepara as miniaturas 3D. Isso acontece uma vez só e pode levar alguns segundos",
+        "O jogo ainda não tem som",
+        "Calendário, estações, clima e serviços como saúde e educação ainda não fazem parte do jogo"
+      ],
+      "download": {
+        "origem": "release",
+        "url": "https://github.com/mfelipemotta25-commits/metropolitano/releases/download/v0.1.1/Metropolitano-v0.1.1.exe",
+        "nomeArquivo": "Metropolitano-v0.1.1.exe",
+        "tamanho": 29304065
+      }
+    },
     {
       "id": "s8ap7th6",
       "numero": "0.1.0",
