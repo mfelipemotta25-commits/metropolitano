@@ -1,0 +1,73 @@
+{
+  "meta": {
+    "titulo": "Metropolitano: simulador de construção de cidades em 3D para PC",
+    "descricao": "Metropolitano é um simulador de construção e gerenciamento de cidades em 3D para PC. Acompanhe o desenvolvimento, veja as atualizações e baixe a versão mais recente.",
+    "imagemCompartilhamento": ""
+  },
+  "hero": {
+    "frase": "Uma cidade inteira começa com a primeira rua.",
+    "descricao": "Metropolitano é um simulador de construção e gerenciamento de cidades em 3D para PC. Você traça as ruas, define as zonas e organiza o transporte que mantém tudo em movimento.",
+    "status": "Jogo em desenvolvimento, com atualizações constantes.",
+    "letreiro": ["EM DESENVOLVIMENTO", "SIMULADOR DE CIDADES 3D", "PARA PC"],
+    "midia": { "tipo": "mapa", "src": "" }
+  },
+  "sobre": {
+    "titulo": "Você planeja. A cidade responde.",
+    "paragrafos": [
+      "Em Metropolitano, você é o planejador e o administrador da sua própria cidade. Tem liberdade para construir, expandir, organizar e desenvolver cada bairro do jeito que imaginar.",
+      "Ruas, zonas, comércio e transporte fazem parte de sistemas interligados. O que você decide em um deles aparece nos outros, e é daí que vem a profundidade da simulação.",
+      "O projeto se inspira em city builders modernos, como Cities: Skylines, e tem um objetivo próprio: colocar a paisagem urbana brasileira no centro do jogo."
+    ],
+    "imagem": ""
+  },
+  "recursos": {
+    "titulo": "Os sistemas da sua cidade",
+    "intro": "Estes são os sistemas que o projeto contempla. O roteiro mostra o estágio de cada novidade.",
+    "itens": [
+      { "id": "construcao", "icone": "rua", "camada": "construcao", "titulo": "Construção e expansão", "texto": "Crie ruas e avenidas, abra novos bairros e faça a cidade crescer no seu ritmo.", "imagem": "" },
+      { "id": "zoneamento", "icone": "zonas", "camada": "zonas", "titulo": "Zoneamento", "texto": "Defina áreas residenciais, comerciais e industriais, com construções de diferentes níveis de densidade e evolução.", "imagem": "" },
+      { "id": "trafego", "icone": "carro", "camada": "trafego", "titulo": "Tráfego", "texto": "Veículos circulam pela rede que você desenhou. O traçado das ruas define como a cidade se move.", "imagem": "" },
+      { "id": "transporte", "icone": "metro", "camada": "transporte", "titulo": "Transporte público", "texto": "Ônibus e metrô, com criação e gerenciamento das suas próprias linhas.", "imagem": "" },
+      { "id": "comercio", "icone": "loja", "camada": "zonas", "titulo": "Comércio e delivery", "texto": "Estabelecimentos comerciais, motoboys e serviços de entrega fazem parte da vida da cidade.", "imagem": "" },
+      { "id": "crescimento", "icone": "predios", "camada": "crescimento", "titulo": "Desenvolvimento urbano", "texto": "Os bairros mudam com o tempo, e as construções acompanham o crescimento da cidade.", "imagem": "" },
+      { "id": "gestao", "icone": "painel", "camada": "gestao", "titulo": "Gerenciamento", "texto": "Administre a infraestrutura e acompanhe como a sua cidade funciona como um todo.", "imagem": "" }
+    ]
+  },
+  "galeria": {
+    "titulo": "Galeria",
+    "intro": "Imagens e vídeos reais do jogo.",
+    "itens": []
+  },
+  "roteiro": {
+    "titulo": "Roteiro de desenvolvimento",
+    "intro": "O que já chegou ao jogo, o que está sendo feito agora e o que vem pela frente.",
+    "adicionado": [],
+    "desenvolvimento": [
+      { "id": "godot", "titulo": "Migração para o Godot 4", "texto": "Nova base técnica do jogo." },
+      { "id": "ruas-curvas", "titulo": "Ruas em qualquer ângulo e com curvas", "texto": "Nova rede de ruas, que serve de base para os demais sistemas." }
+    ],
+    "embreve": [
+      { "id": "porte", "titulo": "Zonas, construções e transporte na nova base", "texto": "Levar os sistemas do jogo para a nova rede de ruas." },
+      { "id": "tipos-rua", "titulo": "Cinco tipos de rua brasileiros e avenidas", "texto": "" },
+      { "id": "metro", "titulo": "Metrô subterrâneo com visão técnica", "texto": "" },
+      { "id": "pedestres", "titulo": "Pedestres nas calçadas e faixas de pedestres", "texto": "" },
+      { "id": "semaforos", "titulo": "Semáforos e faixa exclusiva de ônibus", "texto": "" },
+      { "id": "garagem", "titulo": "Garagem de ônibus e capacidade da frota", "texto": "" }
+    ]
+  },
+  "atualizacoes": {
+    "titulo": "Atualizações",
+    "intro": "Novidades, melhorias e correções de cada versão."
+  },
+  "versoes": [],
+  "downloads": {
+    "titulo": "Downloads",
+    "intro": "Baixe a versão mais recente de Metropolitano para Windows.",
+    "requisitos": { "minimos": [], "recomendados": [] },
+    "observacao": "O jogo está em desenvolvimento, então você pode encontrar instabilidades."
+  },
+  "rodape": {
+    "copyright": "Metropolitano. Todos os direitos reservados.",
+    "redes": []
+  }
+}

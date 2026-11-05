@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--seo:inicio-->
+  <title>Metropolitano: simulador de construção de cidades em 3D para PC</title>
+  <meta name="description" content="Metropolitano é um simulador de construção e gerenciamento de cidades em 3D para PC. Acompanhe o desenvolvimento, veja as atualizações e baixe a versão mais recente.">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Metropolitano">
+  <meta property="og:title" content="Metropolitano: simulador de construção de cidades em 3D para PC">
+  <meta property="og:description" content="Metropolitano é um simulador de construção e gerenciamento de cidades em 3D para PC. Acompanhe o desenvolvimento, veja as atualizações e baixe a versão mais recente.">
+  <meta name="twitter:card" content="summary_large_image">
+  <!--seo:fim-->
+  <meta name="theme-color" content="#0F1C2B">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/fontes/big-shoulders-bold.woff" as="font" type="font/woff" crossorigin>
+  <link rel="stylesheet" href="css/site.css">
+  <script type="application/ld+json">
+    {"@context":"https://schema.org","@type":"VideoGame","name":"Metropolitano","gamePlatform":"PC","applicationCategory":"Game","genre":"Simulação","operatingSystem":"Windows","inLanguage":"pt-BR"}
+  </script>
+</head>
+<body>
+  <a class="pular" href="#conteudo">Pular para o conteúdo</a>
+
+  <header class="topo" id="topo">
+    <a class="marca" href="#inicio" aria-label="Metropolitano, início">METROPOLITANO</a>
+    <button class="menu-botao" id="menu-botao" type="button" aria-expanded="false" aria-controls="navegacao">Menu</button>
+    <nav class="navegacao" id="navegacao" aria-label="Seções do site">
+      <a href="#sobre">Sobre</a>
+      <a href="#recursos">Recursos</a>
+      <a href="#galeria">Galeria</a>
+      <a href="#roteiro">Roteiro</a>
+      <a href="#atualizacoes">Atualizações</a>
+      <a class="navegacao-baixar" href="#downloads">Downloads</a>
+    </nav>
+  </header>
+
+  <main id="conteudo">
+    <section class="hero" id="inicio">
+      <div class="hero-midia" id="hero-midia" aria-hidden="true">
+        <canvas id="hero-mapa"></canvas>
+      </div>
+      <div class="hero-conteudo">
+        <h1 class="hero-nome">METROPOLITANO</h1>
+        <div class="letreiro" id="letreiro" role="img" aria-label="Em desenvolvimento"><canvas></canvas></div>
+        <div class="hero-texto">
+          <p class="hero-frase" id="hero-frase">Uma cidade inteira começa com a primeira rua.</p>
+          <p class="hero-descricao" id="hero-descricao">Metropolitano é um simulador de construção e gerenciamento de cidades em 3D para PC.</p>
+          <div class="hero-acoes">
+            <a class="botao botao-principal" id="hero-baixar" href="#downloads">BAIXAR JOGO</a>
+            <a class="botao botao-secundario" href="#sobre">CONHECER O JOGO</a>
+          </div>
+          <p class="hero-status" id="hero-status">Jogo em desenvolvimento, com atualizações constantes.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="secao sobre" id="sobre"></section>
+    <section class="secao recursos" id="recursos"></section>
+    <section class="secao galeria" id="galeria"></section>
+    <section class="secao roteiro" id="roteiro"></section>
+    <section class="secao atualizacoes" id="atualizacoes"></section>
+    <section class="secao downloads" id="downloads"></section>
+
+    <section class="secao erro-carga" id="erro-carga" hidden>
+      <h2>O conteúdo do site não carregou</h2>
+      <p>Verifique a sua conexão e tente de novo.</p>
+      <button class="botao botao-principal" type="button" onclick="location.reload()">Recarregar a página</button>
+    </section>
+    <noscript>
+      <section class="secao"><h2>Ative o JavaScript</h2><p>O conteúdo de Metropolitano precisa de JavaScript para aparecer.</p></section>
+    </noscript>
+  </main>
+
+  <footer class="rodape" id="rodape"></footer>
+
+  <dialog class="ampliada" id="ampliada" aria-label="Visualização ampliada">
+    <div class="ampliada-midia" id="ampliada-midia"></div>
+    <p class="ampliada-legenda" id="ampliada-legenda"></p>
+    <button class="ampliada-botao ampliada-fechar" id="ampliada-fechar" type="button">Fechar</button>
+    <button class="ampliada-botao ampliada-anterior" id="ampliada-anterior" type="button">Anterior</button>
+    <button class="ampliada-botao ampliada-proxima" id="ampliada-proxima" type="button">Próxima</button>
+  </dialog>
+
+  <script type="module" src="js/site.js"></script>
+</body>
+</html>

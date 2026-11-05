@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <title>Página não encontrada: Metropolitano</title>
+  <style>
+    body { margin: 0; min-height: 100vh; display: grid; place-content: center; gap: 16px; padding: 24px; background: #0F1C2B; color: #EEF0EA; font: 1.0625rem/1.6 "Segoe UI", system-ui, sans-serif; }
+    h1 { margin: 0; font-size: clamp(2rem, 8vw, 4rem); line-height: 1.05; }
+    a { color: #FFB321; font-weight: 700; }
+  </style>
+</head>
+<body>
+  <h1>Esta rua não leva a lugar nenhum.</h1>
+  <p>A página que você procura não existe ou mudou de endereço.</p>
+  <p><a id="voltar" href="/">Voltar para o início</a></p>
+  <script>
+    // No GitHub Pages, o site costuma ficar em /nome-do-repositorio/.
+    if (location.hostname.endsWith('.github.io')) {
+      const pasta = location.pathname.split('/').filter(Boolean)[0];
+      const raiz = location.hostname.split('.')[0] + '.github.io';
+      if (pasta && pasta.toLowerCase() !== raiz.toLowerCase()) document.getElementById('voltar').href = '/' + pasta + '/';
+    }
+  </script>
+</body>
+</html>
