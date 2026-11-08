@@ -37,7 +37,7 @@
         "camada": "construcao",
         "titulo": "Construção e expansão",
         "texto": "Construa e expanda sua cidade com liberdade total, do primeiro quarteirão a uma metrópole completa.",
-        "imagem": ""
+        "imagem": "assets/uploads/captura-de-tela-2026-11-08-124640-ciwuco7o.webp"
       },
       {
         "id": "zoneamento",
@@ -45,7 +45,7 @@
         "camada": "zonas",
         "titulo": "Zoneamento",
         "texto": "Defina áreas residenciais, comerciais e industriais, com construções de diferentes níveis de densidade e evolução.",
-        "imagem": ""
+        "imagem": "assets/uploads/captura-de-tela-2026-11-08-124915-v7zyywy7.webp"
       },
       {
         "id": "trafego",
@@ -53,7 +53,7 @@
         "camada": "trafego",
         "titulo": "Tráfego",
         "texto": "Veículos circulam pela rede que você desenhou. O traçado das ruas define como a cidade se move.",
-        "imagem": ""
+        "imagem": "assets/uploads/captura-de-tela-2026-11-08-125256-li4vnm4i.webp"
       },
       {
         "id": "transporte",
@@ -61,7 +61,7 @@
         "camada": "transporte",
         "titulo": "Transporte público",
         "texto": "Ônibus e metrô, com criação e gerenciamento das suas próprias linhas.",
-        "imagem": ""
+        "imagem": "assets/uploads/captura-de-tela-2026-11-08-125546-1p1wc4hc.webp"
       },
       {
         "id": "comercio",
@@ -69,7 +69,7 @@
         "camada": "zonas",
         "titulo": "Comércio e delivery",
         "texto": "Estabelecimentos comerciais, motoboys e serviços de entrega fazem parte da vida da cidade.",
-        "imagem": ""
+        "imagem": "assets/uploads/captura-de-tela-2026-11-08-125609-d12v0ki1.webp"
       },
       {
         "id": "crescimento",
@@ -77,7 +77,7 @@
         "camada": "crescimento",
         "titulo": "Desenvolvimento urbano",
         "texto": "Os bairros mudam com o tempo, e as construções acompanham o crescimento da cidade.",
-        "imagem": ""
+        "imagem": "assets/uploads/captura-de-tela-2026-11-08-125650-s0uv7keg.webp"
       },
       {
         "id": "gestao",
@@ -85,7 +85,7 @@
         "camada": "gestao",
         "titulo": "Gerenciamento",
         "texto": "Administre a infraestrutura e acompanhe como a sua cidade funciona como um todo.",
-        "imagem": ""
+        "imagem": "assets/uploads/captura-de-tela-2026-11-08-125725-6iijwyi7.webp"
       }
     ]
   },
